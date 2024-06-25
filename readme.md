@@ -9,13 +9,6 @@ This is a simple weather application that provides a 5-day forecast for a given 
 - **5-Day Forecast**: The application displays the weather forecast for the next 5 days, including temperature, humidity, wind speed, and weather conditions.
 - **Responsive Design**: The application is designed to be responsive and can be accessed on different devices.
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Install the required dependencies: `npm install`
-3. Obtain an API key from a weather service provider (e.g., OpenWeatherMap).
-4. Rename the `.env.example` file to `.env` and replace the `API_KEY` placeholder with your actual API key.
-
 ## Usage
 
 1. Start the application: `npm start`
