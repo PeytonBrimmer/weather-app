@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>weather app</title>
+<link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <header>
+        <section class="header-sec">
+            <div class="hero">
+                <h1 class="h1header">Weather Dashboard</h1>
+            </div>
+        </section>
+    </header>
+
+    <div class="div1">
+        <aside>
+            <form>
+                <div class="div2">
+                    <div class="div3">
+                        <p>Search for a city</p>
+                        <label alt="search"></label>
+                        <input id="input" class="search-input" type="text" placeholder="Search" type="text">
+                        <input class="button-search" id="submit-btn" type="submit">
+                    </div>
+                    <div classs="div4" id="search-history"></div>
+                    <div id="clear-history" class="search-hist-btn">Clear History</div>
+                </div>
+           </div>
+     </form>
+    </aside>
+
+  // forecast
+    <div class="five-day-forecast">
+        <section class="section-forecast">
+                <h2 class="city-name">City Name</h2>
+                <div id="current-weather" class="one-day-card">
+                </div>
+        </section>
+
+        <section class="section-forecast">
+            <h2 class="city-name">City Name</h2>
+            <div id="five-day-forecast" class="five-day-card">
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer">Created By Peyton Brimmer</footer>
+  </body>
+  <script src = "script.js"></script>
+</body>
+</html>
