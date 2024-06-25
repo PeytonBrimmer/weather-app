@@ -9,13 +9,6 @@ This is a simple weather application that provides a 5-day forecast for a given 
 - **5-Day Forecast**: The application displays the weather forecast for the next 5 days, including temperature, humidity, wind speed, and weather conditions.
 - **Responsive Design**: The application is designed to be responsive and can be accessed on different devices.
 
-## Usage
-
-1. Start the application: `npm start`
-2. Open your browser and navigate to `http://localhost:3000`.
-3. Enter a location in the search bar and click the "Search" button.
-4. The weather forecast for the next 5 days will be displayed.
-
 ## Technologies Used
 
 - HTML
